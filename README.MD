@@ -17,9 +17,10 @@ conda activate name_project
   python -m pip install pygame django fastapi
   ```
 
-# Pattern design in python # 
-
-
+Save environment in a `yml` file.
+  ```sh
+  conda env export > environment.yml
+  ```
 
 
 
