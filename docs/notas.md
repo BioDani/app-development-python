@@ -32,3 +32,6 @@ Es un patrón de diseño creacional que garantiza que una clase solo tiene una i
 
 Cuando un usuario requiere una instancia de la clase, el patrón singleton chequea si la instancia existe, en caso afirmativo la retorna, en caso contrario la crea y la retorna. 
 
+
+
+  

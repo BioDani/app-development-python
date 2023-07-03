@@ -3,7 +3,7 @@
 
 Create a new enviroment development
 ```sh
-conda create -n- name_project python:3.9
+conda create -n name_project python:3.9
 ```
 
 To activate this enviroment, use

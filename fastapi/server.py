@@ -1,7 +1,9 @@
 from fastapi import FastAPI
 
-api = FastAPI()
+app = FastAPI()
 
-@api.get("/")
+@app.get("/")
 def hellow_world():
-    return "Server running."
+    return { "status": 200,
+            "message": "Server running."
+            }
